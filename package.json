@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/SamuelDub/CatBot/issues"
   },
-  "homepage": "https://github.com/SamuelDub/CatBot#readme"
+  "homepage": "https://github.com/SamuelDub/CatBot#readme",
+  "dependencies": {
+    "cleverbot-node": "^0.3.11",
+    "discord.js": "^11.2.1",
+    "express": "^4.15.4",
+    "http": "0.0.0"
+  }
 }
