@@ -34,6 +34,7 @@ const ping = require("./commands/ping.js");
 const color = require("./commands/color.js");
 const talk = require("./commands/talk.js");
 const serverinfo = require("./commands/serverinfo.js");
+const ban = require("./commands/ban.js");
 
 bot.on("ready", () => {
     console.log("Bot is up");
@@ -58,6 +59,8 @@ bot.on("message", (message) => {
         color.color(message, bot)
     } else if (command == "?SI"|| command == "?SERVERINFO") {
         serverinfo.serverinfo(message, bot);
+    } else if (command == "?BAN") {
+        ban.ban(message, bot);
     }
 
 });
