@@ -3,6 +3,8 @@ module.exports = {
 
         let wm = message.content.toUpperCase();
 
+        let aargs = wm.split(" ").slice(2);
+
         var overlord = message.guild.roles.find("name", "Cat overlord");
         var vet = message.guild.roles.find("name", "Vet");
         var head = message.guild.roles.find("name", "Head Vet");
