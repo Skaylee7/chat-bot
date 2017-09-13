@@ -3,12 +3,6 @@ module.exports = {
 
         let wm = message.content.toUpperCase();
 
-        let command = wm.split(" ")[0];
-
-        if (command != "!KICK") {
-            return;
-        }
-
         var overlord = message.guild.roles.find("name", "Cat overlord");
         var vet = message.guild.roles.find("name", "Vet");
         var head = message.guild.roles.find("name", "Head Vet");

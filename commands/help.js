@@ -21,7 +21,8 @@ module.exports = {
             .addField('?ping', "Gives you the ping of the bot", false)
             .addField('?color [color]', "Replace [color] with a valid color from #color-request", false)
             .addField('?si or ?serverinfo', "Gives you basic information on the server", false)
-            .addField('?ban @user [reason]', 'Lets you ban anyone who has been a naughty cat');
+            .addField('?ban @user [reason]', 'Lets you ban anyone who has been a naughty cat', false)
+            .addField('?kick @user [reason]', 'Lets you kick anyone who has been a naughty cat', false);;
             embed.addField('Mention Camilla\'s Clone', "you can talk to her!", false);
 
         message.author.send({
