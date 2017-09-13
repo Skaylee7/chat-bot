@@ -35,6 +35,7 @@ const color = require("./commands/color.js");
 const talk = require("./commands/talk.js");
 const serverinfo = require("./commands/serverinfo.js");
 const ban = require("./commands/ban.js");
+const kick = require("./commands/kick.js");
 
 bot.on("ready", () => {
     console.log("Bot is up");
@@ -61,6 +62,8 @@ bot.on("message", (message) => {
         serverinfo.serverinfo(message, bot);
     } else if (command == "?BAN") {
         ban.ban(message, bot);
+    } else if (command == "?KICK") {
+        kick.kick(message, bot);
     }
 
 });
