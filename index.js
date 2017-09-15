@@ -67,3 +67,7 @@ bot.on("message", (message) => {
     }
 
 });
+
+(function init() {
+  bot.loginWithToken(config.MzU4MTYwNjg0MjU0NjI1Nzk1.DJ061A.IgAAg7ksVkMZH0tieMdgjsvhzhs);
+    
