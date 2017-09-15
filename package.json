@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SamuelDub/CatBot/issues"
+    "url": "git+https://github.com/SamuelDub/CatBot.git"
   },
   "homepage": "https://github.com/SamuelDub/CatBot#readme",
   "dependencies": {
